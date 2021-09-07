@@ -35,7 +35,6 @@ const blogSchema = new mongoose.Schema({
   isApproved: {
     type: Boolean,
     default: false,
-    select: false,
   },
   writer: {
     type: mongoose.Schema.ObjectId,
