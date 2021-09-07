@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start:prod": "SET NODE_ENV=production&nodemon server.js"
+    "start": "SET NODE_ENV=production&node server.js"
+  },
+  "engines": {
+    "node": "14.15.1"
   },
   "keywords": [],
   "author": "",
